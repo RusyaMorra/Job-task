@@ -1,0 +1,234 @@
+
+// Основа второй секции
+.section2__aboutyou{
+    height: 381px;
+}
+
+
+
+// бокс с картинкой и текстом в начале
+.section2__textimgdiv{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-top: 8px;
+}
+
+// текс
+.aboutexpirience{
+font-size: 1.8125rem;
+color:#1c1c1c ;
+font-weight:400 ;
+font-family: "Ligth";
+}
+
+
+// зона чексбоксов
+.section2__checkboxes{
+ width:68%;
+ height: 140px; 
+
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-direction: row;
+   
+}
+
+
+// разделения 
+.checkbox__set1{
+width: 30%;
+height: 100%;
+
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+}
+
+
+
+// деление столбцов
+.checkbox__value{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+padding-top: 7px;
+    
+}
+// Сам чекбокс
+.checkbox1{
+    width: 30px;
+    height: 21px;
+    margin-right: 10px;
+    margin-left: 8px;
+
+}
+
+
+// текст рядом с чекбоксом
+.checkbox__text{
+font-size: 0.9500rem;
+color: #1c1c1c;
+font-family: "Ligth";
+font-weight: 500;
+}
+
+
+
+
+
+//Адаптивность
+
+
+
+@media (max-width: 724px) {
+
+
+
+// Основа второй секции
+.section2__aboutyou{
+    height: 600px;
+}
+
+
+
+// зона чексбоксов
+.section2__checkboxes{
+    width:100%;
+    height: 400px; 
+   
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      
+   }
+   
+   
+   // разделения 
+   .checkbox__set1{
+   width: 50%;
+   height: 100%;
+   
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   flex-direction: column;
+   }
+   
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+  
+    .container{
+        max-width:320px;
+        margin: auto;
+        height: 71px;
+        
+        }
+
+
+
+
+
+
+// Основа второй секции
+.section2__aboutyou{
+    height: 600px;
+}
+
+
+
+// бокс с картинкой и текстом в начале
+.section2__textimgdiv{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-top: 8px;
+}
+
+// текс
+.aboutexpirience{
+font-size: 1.2125rem;
+color:#1c1c1c ;
+font-weight:400 ;
+font-family: "Ligth";
+}
+
+
+// зона чексбоксов
+.section2__checkboxes{
+ width:100%;
+ height: 400px; 
+
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+   
+}
+
+
+// разделения 
+.checkbox__set1{
+width: 50%;
+height: 100%;
+
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+}
+
+
+
+// деление столбцов
+.checkbox__value{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+padding-top: 7px;
+    
+}
+// Сам чекбокс
+.checkbox1{
+    width: 30px;
+    height: 21px;
+    margin-right: 10px;
+    margin-left: 8px;
+
+}
+
+
+// текст рядом с чекбоксом
+.checkbox__text{
+font-size: 0.6500rem;
+color: #1c1c1c;
+font-family: "Ligth";
+font-weight: 500;
+}
+
+
+
+
+
+
+}

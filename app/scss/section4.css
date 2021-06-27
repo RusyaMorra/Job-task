@@ -1,0 +1,209 @@
+
+// бокс с картинкой и текстом в начале
+.section4__textimgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    }
+    
+// текс
+.aboutexpirience3{
+font-size: 1.8125rem;
+color:#1c1c1c ;
+font-weight:400 ;
+font-family: "Ligth";
+}
+
+//Текст 1
+.Textimgdiv__text1{
+    font-size: 0.9900rem;
+    color:#1c1c1c ;
+    font-weight:400 ;
+    font-family: "Ligth";  
+ 
+  
+}
+//text2
+.Textimgdiv__text2{
+    font-size: 0.9900rem;
+    color:#1c1c1c ;
+    font-weight:400 ;
+    font-family: "Ligth";  
+    margin-top:-9px ;
+ 
+  
+}
+
+//Обертка
+.qq{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top:-19px ;
+
+}
+
+
+// Окошко ввода сообщения
+.massage__area{
+width: 70%;
+height: 300px;
+
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top:20px ;
+}
+
+
+//Стилизация placeholdera для сообщений
+::-webkit-textarea-placeholder{
+    color:$color5placeholdertext;
+    font-size: 1.1875rem;
+    
+    font-family: "regular";;
+    
+    }
+    ::-moz-placeholder{
+    color:$color5placeholdertext;
+    font-size: 1.1875rem;
+  
+  
+    font-family: "regular";;
+    }/* Firefox 19+ */
+    :-moz-placeholder{
+    color:$color5placeholdertext;
+    font-size: 1.1875rem;
+   
+   
+    font-family: "regular";;
+    }/* Firefox 18- */
+    :-ms-textarea-placeholder{
+    color:$color5placeholdertext;
+    font-size:1.1875rem;
+   
+    font-family: "regular";;
+    }
+// стилизация окна ввода сообщений
+textarea{
+width: 63%;
+height: 172px;
+margin-top:-1px ;
+outline: none;
+border:  2px solid  $color12borderdown ;
+border-radius: 5px;
+}
+
+
+//Кнопка
+.button__ready{
+color:white;
+width:116px ;
+height: 52px;
+font-size: 0.9375rem;
+outline: none;
+border: none;
+border-radius: 10px;
+background-color:$color8buttondown ;
+margin-top: 70px;
+cursor: pointer;
+}
+
+//стрелка
+.jjjj{
+
+    opacity: .7;
+}
+
+
+
+
+
+
+//Адаптивность
+@media (max-width: 320px) {
+    .container{
+        max-width: 320px;
+        margin: auto;
+        height: 71px;
+        
+        }
+
+
+
+
+        // текс
+.aboutexpirience3{
+    font-size: 1.2125rem;
+    color:#1c1c1c ;
+    font-weight:400 ;
+    font-family: "Ligth";
+    }
+    
+    //Текст 1
+    .Textimgdiv__text1{
+        font-size: 1.0000rem;
+        color:#1c1c1c ;
+        font-weight:400 ;
+        font-family: "Ligth";  
+     
+      
+    }
+    //text2
+    .Textimgdiv__text2{
+        font-size: 0.9000rem;
+        color:#1c1c1c ;
+        font-weight:400 ;
+        font-family: "Ligth";  
+        margin-top:-9px ;
+     
+      
+    }
+    
+}
+
+
+
+
+
+@media (max-width: 425px) {
+
+
+    
+
+
+  // текс
+  .aboutexpirience3{
+    font-size: 1.0000rem;
+    color:#1c1c1c ;
+    font-weight:400 ;
+    font-family: "Ligth";
+    }
+    
+    //Текст 1
+    .Textimgdiv__text1{
+        font-size: 0.7000rem;
+        color:#1c1c1c ;
+        font-weight:400 ;
+        font-family: "Ligth";  
+     
+      
+    }
+    //text2
+    .Textimgdiv__text2{
+        font-size: 0.7000rem;
+        color:#1c1c1c ;
+        font-weight:400 ;
+        font-family: "Ligth";  
+        margin-top:-9px ;
+     
+      
+    }
+
+}

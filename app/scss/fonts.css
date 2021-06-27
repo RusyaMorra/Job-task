@@ -1,0 +1,19 @@
+// roboto стили
+//thin
+@font-face { 
+    font-family: "Thin";
+    src:url(/fonts/Roboto-Thin.ttf);
+   
+}
+//light
+@font-face { 
+    font-family: "Ligth";
+    src:url(/fonts/Roboto-Light.ttf);
+   
+}
+//regular
+@font-face { 
+    font-family: "regular";
+    src:url(/fonts/Roboto-Regular.ttf);
+   
+}

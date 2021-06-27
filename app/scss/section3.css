@@ -1,0 +1,570 @@
+
+.section3skillsslider{
+    height: 321px;
+    
+}
+
+
+
+// бокс с картинкой и текстом в начале
+.section3__textimgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 8px;
+    }
+    
+// текс
+.aboutexpirience1{
+font-size: 1.8125rem;
+color:#1c1c1c ;
+font-weight:400 ;
+font-family: "Ligth";
+}
+
+
+//скилл текста обертка
+.section3__boxtexts1{
+   padding-top:28px ;
+    width: 80%;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+  
+    
+}
+//скилл текста обертка 2
+.section3__boxtexts2{
+  
+    width: 80%;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+  
+    
+}
+
+//текст 
+.boxtexts4__skilltexts1{
+font-size: 0.75rem;
+font-family: "Ligth";
+
+
+margin-right: 80px;
+line-height: 1.1rem;
+
+
+color: $color2
+}
+//текст 
+.boxtexts4__skilltexts2{
+font-size: 0.75rem;
+font-family: "Ligth";
+padding-right: 30px;
+
+
+color: $color2
+}
+//текст 
+.boxtexts4__skilltexts3{
+font-size: 0.75rem;
+font-family: "Ligth";
+
+
+margin-right: 195px;
+line-height: 1.1rem;
+margin-top: -20px;
+
+color: $color2
+}
+
+
+
+
+//текст 
+.boxtexts4__skilltexts4{
+font-size: 0.75rem;
+font-family: "Ligth";
+margin-left: 195px;
+margin-top: -20px;
+
+
+color: $color2
+}
+
+
+
+
+
+
+
+
+
+//SLIDER PART BABY
+
+.slider{
+width: 100%;
+height: 50px;
+position: relative;
+
+}
+
+//slider
+.slider__main{
+width: 66%;
+height: 15px;
+background-color: $color11sliderline;
+margin: auto;
+clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 78%);
+position: relative;
+
+}
+
+
+//Внутрений цвет слайдера
+
+.Inside__color{
+    background-color: $color7slider;
+    width: 1170px;
+    height: 100px;
+
+
+  position: absolute;
+  right: 50px;
+
+
+
+}
+
+.rails222{
+    width: 68.40%;
+    height: 25px;
+    margin: auto;
+    position: relative;
+    right: 0px;
+}
+
+
+
+    
+
+.range222{
+position: absolute;  
+right: 50px;
+
+
+
+
+}
+
+
+
+
+
+
+//Адаптивность
+@media (max-width: 853px) {
+
+//скилл текста обертка
+.section3__boxtexts1{
+    padding-top:28px ;
+     width: 80%;
+     height: 20px;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+ 
+   
+     
+ }
+ //скилл текста обертка 2
+ .section3__boxtexts2{
+   
+     width: 80%;
+     height: 20px;
+     margin: auto;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: row;
+ 
+   
+     
+ }
+ 
+ //текст 
+ .boxtexts4__skilltexts1{
+ font-size: 0.80rem;
+ font-family: "Ligth";
+ 
+ 
+ margin-right: 15px;
+ line-height: 1.1rem;
+ 
+ 
+ color: $color2
+ }
+ //текст 
+ .boxtexts4__skilltexts2{
+ font-size: 0.80rem;
+ font-family: "Ligth";
+ padding-right: 0px;
+ 
+ 
+ color: $color2
+ }
+ //текст 
+ .boxtexts4__skilltexts3{
+ font-size: 0.80rem;
+ font-family: "Ligth";
+ 
+ 
+ margin-right: 150px;
+ line-height: 1.1rem;
+ margin-top: -20px;
+ 
+ color: $color2
+ }
+ 
+ 
+ 
+ 
+ //текст 
+ .boxtexts4__skilltexts4{
+ font-size: 0.80rem;
+ font-family: "Ligth";
+ margin-left: 200px;
+ margin-top: -20px;
+ 
+ 
+ color: $color2
+ }
+ 
+ 
+ 
+ 
+
+
+}
+
+
+
+
+
+
+//Адаптивность
+
+
+
+
+//Адаптивность
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+    .container{
+        max-width: 320px;
+        margin: auto;
+        height: 71px;
+        
+        }
+
+
+
+        .section3skillsslider{
+            height: 321px;
+            
+        }
+        
+        
+        
+        // бокс с картинкой и текстом в начале
+        .section3__textimgdiv{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 8px;
+            }
+            
+        // текс
+        .aboutexpirience1{
+        font-size: 1.2125rem;
+        color:#1c1c1c ;
+        font-weight:400 ;
+        font-family: "Ligth";
+        }
+        
+        
+        //скилл текста обертка
+        .section3__boxtexts1{
+           padding-top:28px ;
+            width: 30%;
+            height: 20px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        
+          
+            
+        }
+        //скилл текста обертка 2
+        .section3__boxtexts2{
+          
+            width: 30%;
+            height: 20px;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+        
+          
+            
+        }
+        
+        //текст 
+        .boxtexts4__skilltexts1{
+        font-size: 0.75rem;
+        font-family: "Ligth";
+        
+        
+        margin-right: 10px;
+        line-height: 1.1rem;
+        
+        
+        color: $color2
+        }
+        //текст 
+        .boxtexts4__skilltexts2{
+        font-size: 0.75rem;
+        font-family: "Ligth";
+        padding-right: 10px;
+        
+        
+        color: $color2
+        }
+        //текст 
+        .boxtexts4__skilltexts3{
+        font-size: 0.75rem;
+        font-family: "Ligth";
+        
+        
+        margin-right: 90px;
+        line-height: 1.1rem;
+        margin-top: -20px;
+        
+        color: $color2
+        }
+        
+        
+        
+        
+        //текст 
+        .boxtexts4__skilltexts4{
+        font-size: 0.75rem;
+        font-family: "Ligth";
+        margin-left: 90px;
+        margin-top: -20px;
+        
+        
+        color: $color2
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        //SLIDER PART BABY
+        
+        .slider{
+        width: 100%;
+        height: 50px;
+        position: relative;
+     
+        }
+        
+        //slider
+        .slider__main{
+        width: 100%;
+        height: 15px;
+        background-color: $color11sliderline;
+        margin: auto;
+        clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 78%);
+        position: relative;
+        
+        }
+        
+        
+        //Внутрений цвет слайдера
+        
+        .Inside__color{
+            background-color: $color7slider;
+            width: 1170px;
+            height: 100px;
+        
+        
+          position: absolute;
+          
+        
+        
+        
+        }
+        
+        .rails222{
+            width: 90%;
+            height: 25px;
+            margin: auto;
+            position: relative;
+            
+        }
+        
+        
+        
+            
+        
+        .range222{
+        position: absolute;  
+        right: 50px;
+        
+        
+        
+        
+        }
+        
+        
+        
+        
+
+
+
+
+}
+
+
+
+
+//Адаптивность
+@media (max-width: 425px) {
+  
+
+
+
+
+
+
+
+
+
+
+ //скилл текста обертка
+ .section3__boxtexts1{
+    padding-top:28px ;
+     width: 30%;
+     height: 20px;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+ 
+   
+     
+ }
+ //скилл текста обертка 2
+ .section3__boxtexts2{
+   
+     width: 30%;
+     height: 20px;
+     margin: auto;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction: row;
+ 
+   
+     
+ }
+ 
+ //текст 
+ .boxtexts4__skilltexts1{
+ font-size: 0.75rem;
+ font-family: "Ligth";
+ 
+ 
+ margin-right: 10px;
+ line-height: 1.1rem;
+ 
+ 
+ color: $color2
+ }
+ //текст 
+ .boxtexts4__skilltexts2{
+ font-size: 0.75rem;
+ font-family: "Ligth";
+ padding-right: 10px;
+ 
+ 
+ color: $color2
+ }
+ //текст 
+ .boxtexts4__skilltexts3{
+ font-size: 0.75rem;
+ font-family: "Ligth";
+ 
+ 
+ margin-right: 85px;
+ line-height: 1.1rem;
+ margin-top: -20px;
+ 
+ color: $color2
+ }
+ 
+ 
+ 
+ 
+ //текст 
+ .boxtexts4__skilltexts4{
+ font-size: 0.75rem;
+ font-family: "Ligth";
+ margin-left: 85px;
+ margin-top: -20px;
+ 
+ 
+ color: $color2
+ }
+
+
+
+
+
+}
+
+
+
+
+
+    

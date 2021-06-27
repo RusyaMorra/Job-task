@@ -1,0 +1,401 @@
+
+//Сама секция 
+.section1__Personalinfo{
+height: 882px;
+
+}
+
+//врапер
+.section1__contentwrapper{
+height:882px ;
+width: 70%;
+margin: auto;
+
+
+
+}
+
+// начало обертка дял текста и картинки
+.section1__infobox{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: $color9text;
+padding-top: 80px;
+
+
+
+}
+
+
+//Текст
+.infobox__questionnaire{
+font-size: 4.3125rem;
+font-family: "Thin";
+font-weight:400 ;
+
+
+
+}
+//картинка
+.infobox__img{
+  padding-top: 13px;
+  
+}
+//Инфо
+.infobox__persinf{
+font-size: 1.8125rem;
+font-family:"Ligth";
+font-weight:400 ;
+
+
+
+}
+
+
+//секция формы
+.section1__form{
+    width: 75%;
+    
+    height: 443px;
+  
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  
+}
+//первый импут для того что бы по пиксель перфект было идеально
+.Input1{
+    margin-top: 8px;
+}
+
+
+//инпут
+input {
+width: 84%;
+height: 58px;
+outline: none;
+border: solid 1px $color10inputselectborder ;
+border-radius: 5px;
+font-size: 24px;
+font-family: "regular";
+color: $color2;
+
+}
+
+//селект
+select{
+    width: 53%;   
+    height: 58px; 
+    outline: none;
+    border: solid 1px $color10inputselectborder ;
+    border-radius: 5px;
+     
+    padding: 0px 65px 0px 80px;
+    color:$color5placeholdertext;
+font-size: 1.4375rem;
+text-align: center;
+font-family: "regular";;
+text-align: center;
+
+}
+
+
+//стилизация плейс холдера с вендорными префиксами
+.fakePlaceholder{
+    color:$color5placeholdertext;
+    font-size: 1.4375rem;
+    text-align: center;
+    font-family: "regular";;
+}
+
+::-webkit-input-placeholder{
+color:$color5placeholdertext;
+font-size: 1.4375rem;
+text-align: center;
+font-family: "regular";;
+}
+::-moz-placeholder{
+color:$color5placeholdertext;
+font-size: 1.4375rem;
+text-align: center;
+font-family: "regular";;
+}/* Firefox 19+ */
+:-moz-placeholder{
+color:$color5placeholdertext;
+font-size: 1.4375rem;
+text-align: center;
+font-family: "regular";;
+}/* Firefox 18- */
+:-ms-input-placeholder{
+color:$color5placeholdertext;
+font-size: 1.4375rem;
+text-align: center;
+font-family: "regular";;
+}
+
+::-webkit-select-placeholder {
+color:$color5placeholdertext;
+font-size: 1.4375rem;
+text-align: center;
+font-family: "regular";;
+}
+::-moz-placeholder{
+color:$color5placeholdertext;
+font-size: 1.4375rem;
+text-align: center;
+font-family: "regular";;
+}/* Firefox 19+ */
+:-moz-placeholder{
+color:$color5placeholdertext;
+font-size: 1.4375rem;
+text-align: center;
+font-family: "regular";;
+}/* Firefox 18- */
+:-ms-select-placeholder{
+color:$color5placeholdertext;
+font-size: 1.4375rem;
+text-align: center;
+font-family: "regular";;
+}
+
+a{
+text-decoration: none;
+}
+
+
+
+
+//Адаптивность
+
+
+@media (max-width: 1163px) {
+    //селект
+ select{
+ 
+    width: 84%;
+    padding: 0px 60px 0px 80px;
+ //font-size: 1.1000rem;
+
+ }
+ }
+@media (max-width: 1063px) {
+    //селект
+ select{
+    width: 84%;
+ 
+    padding: 0px 60px 0px 80px;
+
+
+ }
+ }
+
+
+//Адаптивность
+
+ @media (max-width: 768px) {
+
+
+
+   //селект
+select{
+    width: 84%;
+//font-size: 0.8000rem;
+
+
+}
+}
+
+
+@media (max-width: 716px) {
+  //селект
+  select{
+  
+    font-size: 0rem;
+    
+
+
+ }
+}
+
+
+//Адаптивность
+@media (max-width: 320px) {
+    .container{
+        max-width: 320px;
+        margin: 0 auto;
+        height: 71px;
+        
+        }
+
+
+
+        .section1__Personalinfo{
+            height: 882px;
+            
+            }
+            
+            //врапер
+            .section1__contentwrapper{
+            height:882px ;
+            width: 70%;
+            margin: auto;
+            
+            
+            
+            }
+            
+            // начало обертка дял текста и картинки
+            .section1__infobox{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: $color9text;
+            padding-top: 80px;
+            
+            
+            
+            }
+            
+            
+            //Текст
+            .infobox__questionnaire{
+            font-size: 2.3125rem;
+            font-family: "Thin";
+            font-weight:400 ;
+            
+            
+            
+            }
+            //картинка
+            .infobox__img{
+              padding-top: 13px;
+              
+            }
+            //Инфо
+            .infobox__persinf{
+            font-size: 0.8000rem;
+            font-family:"Ligth";
+            font-weight:400 ;
+            
+            
+            
+            }
+            
+            
+            //секция формы
+            .section1__form{
+                width: 100%;
+                
+                height: 443px;
+              
+                margin: auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-direction: column;
+              
+            }
+            //первый импут для того что бы по пиксель перфект было идеально
+            .Input1{
+                margin-top: 8px;
+            }
+            
+            
+            //инпут
+            input {
+            width: 100%;
+            height: 58px;
+            outline: none;
+            border: solid 1px $color10inputselectborder ;
+            border-radius: 5px;
+            font-size: 24px;
+            font-family: "regular";
+            color: $color2;
+            
+            }
+            
+            //селект
+            select{
+                width: 53%;   
+                height: 58px; 
+                outline: none;
+                border: solid 1px $color10inputselectborder ;
+                border-radius: 5px;
+                 
+                padding: 0px 65px 0px 80px;
+                color:$color5placeholdertext;
+            font-size: 1.4375rem;
+            text-align: center;
+            font-family: "regular";;
+            text-align: center;
+            
+            }
+            
+            
+            //стилизация плейс холдера с вендорными префиксами
+            .fakePlaceholder{
+                color:$color5placeholdertext;
+                font-size: 1.1000rem;
+                text-align: center;
+                font-family: "regular";;
+            }
+            
+            ::-webkit-input-placeholder{
+            color:$color5placeholdertext;
+            font-size: 1.1000rem;
+            text-align: center;
+            font-family: "regular";;
+            }
+            ::-moz-placeholder{
+            color:$color5placeholdertext;
+            font-size: 1.1000rem;
+            text-align: center;
+            font-family: "regular";;
+            }/* Firefox 19+ */
+            :-moz-placeholder{
+            color:$color5placeholdertext;
+            font-size: 1.1000rem;
+            text-align: center;
+            font-family: "regular";;
+            }/* Firefox 18- */
+            :-ms-input-placeholder{
+            color:$color5placeholdertext;
+            font-size: 1.1000rem;
+            text-align: center;
+            font-family: "regular";;
+            }
+            
+            ::-webkit-select-placeholder {
+            color:$color5placeholdertext;
+            font-size: 1.1000rem;
+            text-align: center;
+            font-family: "regular";;
+            }
+            ::-moz-placeholder{
+            color:$color5placeholdertext;
+            font-size: 1.1000rem;
+            text-align: center;
+            font-family: "regular";;
+            }/* Firefox 19+ */
+            :-moz-placeholder{
+            color:$color5placeholdertext;
+            font-size: 1.1000rem;
+            text-align: center;
+            font-family: "regular";;
+            }/* Firefox 18- */
+            :-ms-select-placeholder{
+            color:$color5placeholdertext;
+            font-size: 1.1000rem;
+            text-align: center;
+            font-family: "regular";;
+            }
+
+
+
+
+}
